@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './header.css'
+import './Header.css'
 interface Props {
   onSearch: (term: string) => void;
 }

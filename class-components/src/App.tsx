@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import Header from './components/Header/header';
+import Header from './components/Header/Header';
 import Items from './components/Items/Items';
 import ErrorBoundary from './components/ErrorBoundary';
 import { search } from './utils/utils';
