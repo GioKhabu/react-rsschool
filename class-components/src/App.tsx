@@ -4,6 +4,7 @@ import Items from './components/Items/Items';
 import ErrorBoundary from './components/ErrorBoundary';
 import { search } from './utils/utils';
 import { StarState } from './interfaces/interfaces';
+import './App.css'
 
 
 

@@ -5,7 +5,7 @@ import './Items.css';
 class Items extends Component<StarState> {
   render() {
     return (
-      <div>
+      <div className='items-group'>
         {this.props.items.map((item, index) => (
           <div key={index} className="item-card">
             <h2>{item.name}</h2>

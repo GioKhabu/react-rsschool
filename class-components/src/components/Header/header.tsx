@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import './header.css'
 interface Props {
   onSearch: (term: string) => void;
 }
@@ -27,11 +27,12 @@ class Header extends Component<Props, State> {
 
   render() {
     return (
-      <div>
+      <div className='header-wrapper'>
         <input
           type="text"
           value={this.state.searchTerm}
           onChange={this.handleChange}
+          placeholder="Search..."
         />
         <button onClick={this.handleSearch}>Search</button>
       </div>
